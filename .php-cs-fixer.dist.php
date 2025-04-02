@@ -52,9 +52,9 @@ return (new Config())
             'location' => 'after_open',
             'header' => <<<'LICENSE'
             This file is part of the Fidry\AliceDataFixtures package.
-            
+
             (c) Théo FIDRY <theo.fidry@gmail.com>
-            
+
             For the full copyright and license information, please view the LICENSE
             file that was distributed with this source code.
             LICENSE
@@ -88,6 +88,7 @@ return (new Config())
         'standardize_not_equals' => true,
         'trim_array_spaces' => true,
         'whitespace_after_comma_in_array' => true,
+        'nullable_type_declaration_for_default_null_value' => true,
     ])
     ->setFinder($finder)
     ;
